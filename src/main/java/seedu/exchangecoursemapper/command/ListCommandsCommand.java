@@ -21,6 +21,8 @@ public class ListCommandsCommand extends Command {
         System.out.println("list schools - List all available partner universities.");
         System.out.println("add <NUS_COURSE_CODE> /pu <NAME_OF_PU> /coursepu <PU_COURSE_CODE> " +
                 "- Add mapped courses between NUS and partner universities.");
+        System.out.println("obtain <SCHOOL_NAME> /email - Obtain partner university contact email");
+        System.out.println("obtain <SCHOOL_NAME> /number - Obtain partner university contact number");
         System.out.println(LINE_SEPARATOR);
         logger.log(Level.INFO, Logs.COMPLETE_EXECUTION);
     }

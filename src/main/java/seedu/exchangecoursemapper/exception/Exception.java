@@ -45,4 +45,13 @@ public class Exception extends Throwable {
     public static String invalidCourseListIndex() {
         return "Please provide a valid index of the course plan you would like to delete.";
     }
+
+    public static String invalidContactType() {
+        return "Invalid contact type.";
+    }
+
+    public static String invalidInputFormat() {
+        return "Invalid input format";
+    }
+
 }
